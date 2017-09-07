@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'abcd';
+    src: url('../fonts/BebasNeue.otf');
+}
+
+body {
+    background: url('../images/wall-of-white-bricks-background_1100-187.jpg');
+}
+
+header {
+    background-color: #225274;
+    position:fixed;
+    height: 80px;
+    width: 100%;
+}
+
+nav {
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+nav ul li {
+    /*float: right;*/
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'abcd';
+}
+
+.logo{
+    margin-left: 30px;
+    margin-top: 28px;
+
+}
+.container{
+    height: 700px;
+    width: 880px;
+    background-color: #fff;
+    margin: auto;
+
+}
+.container img{
+    width: 100%;
+}
